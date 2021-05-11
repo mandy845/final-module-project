@@ -14,9 +14,8 @@ font-family: sans-serif;
     right: 0;
     
 }
-body{
-    background-color:black;
-    color: whitesmoke;
+body{color: black;
+   
 }
 
 .nav-btn i {
@@ -25,43 +24,49 @@ body{
     
 }
 .icons{
-    box-shadow: 3px 3px 3px rgba(235, 16, 16, 0.932);
     padding: 0;
+
     
 }
 .icons i{
     font-size: 25px;
-    padding: 20px;
-
+    padding: 50px;
+    
 }
 h1{
     padding:5px;
     display: grid;
-    text-transform: capitalize;
-    text-transform: uppercase;
+    font-weight: bold;
     
 
-    
-
-    
 }
 .content{
-    padding: 100px;
+    margin: 90px;
     right: 0;
     width: 50%  ;
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.0px );
+    -webkit-backdrop-filter: blur( 6.0px );
+    border-radius: 2px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px;
+    }
 
-}
+  
+
 img{
-    height: 90%;
-    width: 60vh;
-    display: flex
-    ;
+    height: 100%;
+    width: 50vh;
+    display: flex;
 }
 .home-page{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row-reverse;
+    height: 100vh;
+    background-image: url(./my-pics/dave-hoefler-jGhoZPshi4w-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
+    background-size: cover;
+    
 }
 
 .content-heading {
@@ -82,13 +87,93 @@ img{
 }
 
 .image {
-    width: 50%;
+    width: 70%;
+    margin-left: 90px;
 }
 
 .image img {
-    width: 100%;
+    width: 60%;
+    border-radius: 65%;
 }
 .content p{
     padding: 15px;
     font-weight: bold;
+}
+.Navigation{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;    
+    box-shadow: 3px 3px 3px rgba(2, 0, 0, 0.932);
+}
+.Navigation .icons{
+    color:white;
+}
+
+
+
+
+#about {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./my-pics/dave-hoefler-jGhoZPshi4w-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#about h2{
+display: flex;
+font-size: 50px;
+margin: 2px;
+margin-bottom: 10%;
+}
+
+
+
+
+.about p{
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;}
+
+
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.about h3{
+    font-size: 35px;
+}
+.personal{
+    background: rgba(129, 17, 17, 0.35);
+box-shadow: 0 8px 32px 0 rgba(16, 139, 148, 0.37);
+backdrop-filter: blur( 15.0px );
+-webkit-backdrop-filter: blur( 15.0px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+width: 30%;
+margin: 1px;
+padding: 1px;
+height: 360px;
 }
