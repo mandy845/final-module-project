@@ -5,6 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amanda's portfolio</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous"
+  />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous"
+  />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/a234f7d2d6.js" crossorigin="anonymous"></script>
@@ -13,20 +31,24 @@
 <body>
         <div class="home-page">
           <section class="Navigation">
-            <div class="nav-btn"> 
-                <button><i class="fas fa-align-right"></i></button>
+            <div class="menu">
+              <a href="#home-page" target="blank"> <i class="fas fa-home"></i></a>
+              <a href="#about" target="blank"><i class="fas fa-user"></i></i></a>
+              <a href="#services" target="_blank"><i class="fas fa-list"></i></a>
+              <a href="#my-projects" target="_blank"><i class="fas fa-briefcase"></i></a>
+              <a href="#testimonial" target="_blank"> <i class="fas fa-users"></i></a>
+              <a href="#contact-me" target="_blank"><i class="fas fa-comments"></i></a>
             </div>
             <div class="icons">
               <a href="https://wa.me/+27655542498" target="blank"><i class="fab fa-whatsapp" ></i></a>
            <a href="mailto: amandamakara7@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
-             
-            <i class="fab fa-github-square"></i>
+             <a href="https://github.com/mandy845" target="_blank"> <i class="fab fa-github-square"></i></a>
             </div>
           </section>
           <section>
             <div class="hero-content">
             <div class="content">
-              <h1> hey I am Amanda! </h1>
+              <h1> Hey I am Amanda! </h1>
               <h2 class="content-heading">Junior frontend developer</h2>
               <p>I am a committed, industrious and hardworking individual.
                 I am not scared of challenges and always try to find solutions to problems.
@@ -57,7 +79,7 @@
                   <div class="contents"><p>Email: <span>amandamakara7@gmail.com</span></p></div>
                   <div class="contents"><p>City: <span>Cape Town</span></p></div>
                 </div>
-                <div class="skillss"><h3>My skills</h3>
+                <div class="skills"><h3>My skills</h3>
                 </div>
                   <div  class="icons-2">
                     <i class="fab fa-python"></i>
@@ -100,19 +122,269 @@
               </p>
             </div>
           </section>
+         
           <section id="services">
-            <div class="service"><h2>My services</h2>
-             <div class="service-styling">
-              <h3><i class="fas fa-camera"></i></h3>
-              <h4>photography</h4>
+            <h2>My services</h2>
+            <div class="service">
+              <i class="fas fa-camera"></i>
+              <div class="service-text">
+                <h4>photography</h4>
               <p>I believe in memories being captured to reflect in the future and the nature of art itself</p>
               </div>
+              <div class="service">
+                <i class="fas fa-laptop-code"></i>
+                <div class="service-text">
+                <h4>Web development</h4>
+                <p>as I am fimiliar with the frontend web design, and i know backend as well </p>
+              </div>
             </div>
-
+       </section>
+          
+       <section id="my-projects">
+            <h2 class="card-container-heading">My Projects</h2>
+            <div class="card-container">
+              <div class="card">
+                <img
+                src="./images/Screenshot Form 2021-05-04 11-20-35 (1).png"
+                  alt="Glassmorphic Form"
+                  class="card-img" />
+                <div class="card-details">
+                  <h2 class="card-heading">Glassmorphic Form</h2>
+                  <h3 class="card-subtitle">HTML/CSS</h3>
+                  <p class="card-description"></p>
+                  
+                  <div class="card-buttons">
+                    <a
+                      href="https://optimistic-borg-e048a1.netlify.app"
+                      target="_blank"
+                      class="button"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/mandy845/Forms"
+                      target="_blank"
+                      class="button"
+                      >Github</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-details">
+                  <h2 class="card-heading"> testimonial timeline</h2>
+                  <h3 class="card-subtitle">languages</h3>
+                  <p class="card-description">description</p>
+                  <div class="card-buttons">
+                    <a
+                      href="https://happy-kirch-cbd67e.netlify.app"
+                      target="_blank"
+                      class="button"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/mandy845/glassmophic-timeline"
+                      target="_blank"
+                      class="button"
+                      >github
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="" alt="Glassmorphic Form" class="card-img" />
+                <div class="card-details">
+                  <h2 class="card-heading">Contact me</h2>
+                  <h3 class="card-subtitle">HTML/CSS</h3>
+                  <p class="card-description">
+                    Glassmorphic styled form using Formspree and Glassmorphism.com
+                  </p>
+                  <div class="card-buttons">
+                    <a
+                      href="https://flamboyant-leavitt-a9e2a8.netlify.app/"
+                      target="_blank"
+                      class="button"
+                      >Live</a
+                    >
+                    <a
+                      href="https://github.com/JasonWandrag/contact-form"
+                      target="_blank"
+                      class="button"
+                      >Github</a >
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="" alt="">
+              <div class="card-details">
+                <h2 class="card-heading">Temperature converter</h2>
+                <h3 class="card-subtitle">Python tkinter</h3>
+                <p class="card-description"></p>
+                
+                <div class="card-buttons">
+                  <a
+                    href="https://replit.com/@mandy845/tempcoverter#main.py"
+                    target="_blank"
+                    class="button"
+                    >Live</a
+                  >
+                  <a
+                    href="https://github.com/mandy845/tkinter-temperature-converter"
+                    target="_blank"
+                    class="button"
+                    >Github</a>
+                    </div>
+                </div>
+            </div>
           </section>
+          <section id="testimonial">
+      <div class="owl-carousel">
+      <div class="slider">
+        <img src="./my-pics/Godwin.png" alt="Amanda" class="pics" />
+        <div class="content-2">
+          <h1>Godwin Dzvapatsva</h1>
+          <h2> Head of curriculum learning</h2>
+          <q>Amanda always completes any assignment on time and to a good standard. She is someone who listens and adjusts accordingly. </q>
+        </div>
+      </div>
+      <div class="slider">
+        <img src="./images/amanda.jpg" alt="" class="pics" />
+        <div class="content-2">
+          <h1>name</h1>
+          <h2>position</h2>
+          <q>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            fuga tempore unde facilis labore, atque voluptatibus assumenda
+            debitis corrupti! Quasi, excepturi tempore totam dolor molestias
+            quia illo suscipit ullam dolore!</q
+          >
+        </div>
+      </div>
+      <div class="slider">
+        <img src="./images/amanda.jpg" alt="" class="pics" />
+        <div class="content-2">
+          <h1>name</h1>
+          <h2>position</h2>
+          <q>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Maiores fuga tempore unde facilis labore, atque voluptatibus assumenda debitis corrupti! Quasi,
+             excepturi tempore totam dolor molestias quia illo suscipit ullam dolore!
+          </div> </q>
+      </div>
+      <div class="slider">
+        <img src="./images/amanda.jpg" alt="" class="pics" />
+        <div class="content">
+          <h1>name</h1>
+          <h2>position</h2>
+          <q
+            >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            fuga tempore unde facilis labore, atque voluptatibus assumenda
+            debitis corrupti! Quasi, excepturi tempore totam dolor molestias
+            quia illo suscipit ullam dolore!
+          </q>
+        </div>
+      </div>
+      <div class="slider">
+        <img src="./images/amanda.jpg" alt="" class="pics" />
+        <div class="content-2">
+          <h1>name</h1>
+          <h2>position</h2>
+          <q
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga unde
+            numquam voluptatum quae quis, facilis amet harum suscipit totam
+            dolorem incidunt voluptates pariatur dignissimos rem tenetur
+            laboriosam ut alias dolore!</q>
+          
+        </div>
+      </div>
+      <div class="slider">
+        <img src="./images/amanda.jpg" alt=""  class="pics"/>
+        <div class="content-2">
+          <h1>name</h1>
+          <h2>position</h2>
+          <q>orem, ipsum dolor sit amet consectetur adipisicing elit.
+            Maiores fuga tempore unde facilis labore, atque voluptatibus assumenda debitis corrupti! Quasi,
+             excepturi tempore totam dolor molestias quia illo suscipit ullam dolore!</q>
+        </div>
+      </div>
+    </div>
+          </section>
+          <section class="contact">
+            <h2>Contact me</h2>
+            <form
+            id="contact-me"
+            action="https://formspree.io/f/mpzkwozk"
+            method="POST">
+            <h1 class="heading">Contact me</h1>
+            <div class="form-group">
+              <label class="form-label" for="name">Your name:</label>
+              <input
+                class="form-input"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Full Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email"> Your email: </label>
+              <input
+                class="form-input"
+                type="email"
+                name="_replyto"
+                id="email"
+                required
+                placeholder="example@email.com"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="contact">Your contact number:</label>
+              <input
+                class="form-input"
+                type="tel"
+                name="contact"
+                id="contact"
+                required
+                placeholder="072 123 4567"
+              />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message"> Your message: </label>
+              <textarea
+                class="form-input"
+                name="message"
+                id="message"
+                placeholder="Type your message here"
+                required
+              ></textarea>
+            </div>
+            <button class="button" type="submit">Send</button>
+          </form>
+          </section>
+          <footer>created by Amanda <i class="fas fa-heart"></i></footer>
+          <script
+          src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+          integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+          crossorigin="anonymous"
+        ></script>
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+          integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+          crossorigin="anonymous"
+        ></script>
           <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-          <script>
-            AOS.init();
+        <script>
+          $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+              items: 1,
+              margin: 50,
+              loop: true,
+              stagePadding: 100,
+              dots: false,
+              autoplay: true,
+            });
+          });
+          
+          AOS.init();
           </script>
 </body>
 </html>
