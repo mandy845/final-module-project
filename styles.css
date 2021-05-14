@@ -137,16 +137,8 @@ h1{
     
     
 }
-#about::after{
-    position: absolute;
-    bottom: -32%;
-    left: 41%;
-    background:rgb(78, 5, 5);
-    content: '';
-    width: 18%;
-    height: 5px;
-    transform: skew(11deg, -1deg);
-}  
+
+  
 
 .about{
     display: flex;
@@ -163,6 +155,7 @@ font-size: 50px;
 margin: 5px;
 margin-bottom: 20px;
 font-style: inherit;
+
 
 
 }
@@ -316,6 +309,7 @@ border-bottom: 1px solid #e8dfec;
 
     #services h2 {
       text-align: center;
+      font-size: 80px;
     }
     
     .services-container {
@@ -395,6 +389,7 @@ margin: 8%;
       .card-container-heading {
         width: 100%;
         text-align: center;
+        font-size: 67px;
       }
       
       .card {
@@ -477,6 +472,8 @@ margin: 8%;
       .card-container-heading {
         width: 100%;
         text-align: center;
+        text-decoration: 5px underline rgb(71, 5, 5);
+
       }
       
       .card {
@@ -560,7 +557,7 @@ margin: 8%;
         padding-bottom: 2%;
       }
       h3 {
-        padding-bottom: 10%;
+        padding-bottom: 3%;
       }
       .content-2 {
         align-items: center;
@@ -723,11 +720,16 @@ justify-content: center;
 padding: 12px;
 text-decoration: underline ;
     }
-    #testimonial h3{
+#testimonial h3{
       display: flex;
       align-items: center;
-      padding: 12px;
+      padding-bottom: 12px;
+      text-align: center;
+      justify-content: center;
     }
+.slider h2{
+  text-align: center;
+}
 
 
 @media screen and (max-width:640px) {
