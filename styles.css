@@ -70,7 +70,7 @@ h1{
     }
 .home-page{
     height: 100vh;
-    background-image: url(./my-pics/dave-hoefler-jGhoZPshi4w-unsplash.jpg);
+    background-color: cornflowerblue;
     background-position: center;
     background-size: contain;
     background-size: cover;
@@ -100,8 +100,9 @@ h1{
 
 .image img {
   width: 113%;
-  border-radius: 65%;
+
   height: 100vh;
+  object-fit: cover;
   
 }
 .content p{
@@ -552,6 +553,7 @@ margin: 8%;
       .slider img {
         height: 200px;
         object-fit: contain;
+
       }
       h2 {
         padding-bottom: 2%;
@@ -639,10 +641,9 @@ margin: 8%;
     .menu i:hover {
       font-size: 35px;
       background: rgba(197, 21, 21, 0.8);
-      backdrop-filter: blur(1.5px);
-      -webkit-backdrop-filter: blur(1.5px);
       border-radius:100px ;
-      padding: 40px;
+      
+      
     
     }
     .contact{background-color: cornflowerblue;
@@ -663,17 +664,8 @@ margin: 8%;
       transition: all .5s ease;
     }
 
-    i {
-      transition: all .5s ease;
-    }
-    i:hover {
-      font-size: 1.1em;
-      background: rgba(192, 15, 15, 0.8);
-      backdrop-filter: blur(1.5px);
-      -webkit-backdrop-filter: blur(1.5px);
-      border-radius: 80px;  
-      
-    }
+    
+    
     .service i{
       font-size: 50px;
       padding: 12px;
