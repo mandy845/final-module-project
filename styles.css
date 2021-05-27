@@ -156,11 +156,7 @@ font-size: 50px;
 margin: 5px;
 margin-bottom: 20px;
 font-style: inherit;
-
-
-
 }
-
 
 
 
@@ -185,7 +181,6 @@ font-style: inherit;
 
 
 .personal h3{
-    padding: 20px;
     font-size: 25px;
     font-style: oblique;
 
@@ -199,6 +194,8 @@ font-style: inherit;
 .personal{
     font-family: sans-serif;
     padding: 0%;
+    padding-right: 100px;
+    text-align: left;
 }
 .personal span{
     color: rgb(90, 5, 22);
@@ -739,3 +736,16 @@ text-decoration: underline ;
   }
   
 }    
+
+.about-details{
+  display: flex;
+
+  
+
+}
+.pic{
+  width: 30%;
+  object-fit: cover;
+
+
+}
