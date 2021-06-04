@@ -5,24 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amanda's portfolio</title>
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
-    crossorigin="anonymous">
-  <!--my links-->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous"
-  />
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
-    crossorigin="anonymous"
-  />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/a234f7d2d6.js" crossorigin="anonymous"></script>
@@ -32,7 +15,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
     
-</head>
+</head> 
 <body>
   <!--home page-->
         <div class="home-page">
@@ -96,12 +79,12 @@
 
                 <div class="skills"><h3>My skills</h3>
                 </div>
-                  <div  class="icons-2">
+                  <div  data-aos="fade-left" class="icons-2">
                     <i class="fab fa-python"></i>
                   
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-css3"></i>
-                    <i class="fab fa-microsoft"></i>
+                    <i data-aos="fade-left" class="fab fa-html5"></i>
+                    <i data-aos="fade-left" class="fab fa-css3"></i>
+                    <i data-aos="fade-left" class="fab fa-microsoft"></i>
 
                   </div>
           </section>
@@ -169,7 +152,6 @@
             <div class="card-container">
               <div class="card">
                 <img src="./my-pics/glassmophic form.png" alt="">
-                  class="card-img" />
                 <div class="card-details">
                   <h2 class="card-heading">Glassmorphic Form</h2>
                   <h3 class="card-subtitle">HTML/CSS</h3>
@@ -279,60 +261,51 @@
           <!--testimonial-->
           <section id="testimonial">
             <h2>testimonials</h2>
-      <div class="owl-carousel">
-      <div class="slider">
-        <img src="./my-pics/Godwin.png" alt="Amanda" class="pics" />
-        <div class="content-2">
-          <h1>Godwin Dzvapatsva</h1>
-          <h3> Head of curriculum learning</h3>
-          <q>Amanda always completes any assignment on time and to a good standard. She is someone who listens and adjusts accordingly. </q>
-        </div>
-      </div>
-      <div class="slider">
-        <img src="./my-pics/2021-team-jason-wandrag (copy).jpg" alt="" class="pics" />
-        <div class="content-2">
-          <h1>Jason Wandrag</h1>
-          <h3>lecture</h3>
-          <q>
-            Amanda is focused and hard working. She always greets with a smile and has a very pleasant personality.</q>
-        </div>
-      </div>
-      <div class="slider">
-        <img src="./my-pics/vuyani.jpg" alt="" class="pics" />
-        <div class="content-2">
-          <h1>Vuyani Kunelisi</h1>
-          <h3>Peer</h3>
-          <q>Amanda is very persistent in achieving the best outcomes. she has an enthusiastic and professional disposition and adds great value in any project she becomes part of.
-          </div></q>
-      </div>
-      <div class="slider">
-        <img src="./images/amanda.jpg" alt="" class="pics" />
-        <div class="content-2">
-          <h1>name</h1>
-          <h3>position</h3>
-          <q
-            >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            fuga tempore unde facilis labore, atque voluptatibus assumenda
-            debitis corrupti! Quasi, excepturi tempore totam dolor molestias
-            quia illo suscipit ullam dolore!
-          </q>
-        </div>
-      </div>
-      <div class="slider">
-        <img src="./images/amanda.jpg" alt="" class="pics" />
-        <div class="content-2">
-          <h1>name</h1>
-          <h3>position</h3>
-          <q
-            >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga unde
-            numquam voluptatum quae quis, facilis amet harum suscipit totam
-            dolorem incidunt voluptates pariatur dignissimos rem tenetur
-            laboriosam ut alias dolore!</q>
-          
-        </div>
-      </div>
-      </div>
-    </div>
+      <div class="testimonial-container">
+        <div class="row">
+          <div data-aos="zoom-in" class="slider">
+            <img src="./my-pics/Godwin.png" alt="Amanda" class="pics" />
+            <div class="content-2">
+              <h1>Godwin Dzvapatsva</h1>
+              <h3> Head of curriculum learning</h3>
+              <q>Amanda always completes any assignment on time and to a good standard. She is someone who listens and adjusts accordingly. </q>
+            </div>
+          </div>
+          <dFiv data-aos="zoom-in" class="slider">
+            <img src="./my-pics/2021-team-jason-wandrag.jpg" alt="" class="pics" />
+            <div class="content-2">
+              <h1>Jason Wandrag</h1>
+              <h3>lecture</h3>
+              <q>
+                Amanda is focused and hard working. She always greets with a smile and has a very pleasant personality.</q>
+            </div>
+          </div>
+        
+        <div class="row">
+          <div data-aos="zoom-in" class="slider">
+            <img src="./my-pics/vuyani.jpg" alt="" class="pics" />
+            <div class="content-2">
+              <h1>Vuyani Kunelisi</h1>
+              <h3>Peer</h3>
+              <q>Amanda is very persistent in achieving the best outcomes. she has an enthusiastic and professional disposition and adds great value in any project she becomes part of.
+              </div></q>
+          </div>
+          <div data-aos="zoom-in" class="slider">
+            <img src="./my-pics/Luyanda Dingindlela (3).JPG" alt="" class="pics" />
+            <div class="content-2">
+              <h1>Luyanda</h1>
+              <h3>Peer</h3>
+              <q>
+             Amanda has shown to be hardworking and diligent in her work. She may not always have the answer but she always makes sure to find out. That diligence and attitude would serve any company / team very well.
+            her friendly and warm personality makes her very good to work with.
+              </q>
+            </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         </div>
+         </div>
           </section>
           <!--contact me section-->
           <section class="contact">
@@ -419,7 +392,7 @@
               loop: true,
               stagePadding: 100,
               dots: false,
-              autoplay: true,
+              /*autoplay: true,*/
             });
           });
           
