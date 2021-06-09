@@ -16,6 +16,8 @@ scroll-behavior: smooth;
     right: 0;
     text-decoration: none;
     z-index: 99;
+    border: solid 1px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 .menu:focus{
 color: darkred;
@@ -916,3 +918,15 @@ display: flex;
 .slider{
 padding: 10px;
 }
+.menu p {
+  padding-left: 22px;
+}
+
+.fa,
+.fas {
+  font-weight: 900;
+  margin-top: 30px;}
+
+  .menu p {
+    padding-left: 21px;
+  }
