@@ -125,7 +125,9 @@ h1{
 }
 
 .image img {
-  width: 113%;
+  /*width: 113%;*/
+
+  max-width: 40vw;
 
   height: 100vh;
   object-fit: cover;
