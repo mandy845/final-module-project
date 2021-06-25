@@ -53,7 +53,7 @@
   }
   .icons i:hover {
     font-size: 35px;
-    background: rgba(197, 21, 21, 0.8);
+    color: #17CDA7;
     border-radius:100px ;
     
     
@@ -376,7 +376,8 @@
         font-size: 30px;
         font-style: inherit;
         justify-content: center;
-        align-items: center
+        align-items: center;
+        
     }
     #services{
       background: linear-gradient(-45deg, #007B8D,#266175, #2F4858);
@@ -400,6 +401,7 @@
       #services h2 {
         text-align: center;
         font-size: 80px;
+        padding-top: 55px;
       }
       
       .services-container {
@@ -466,7 +468,6 @@
       .card-container {
           display: flex;
           flex-wrap: wrap;
-          
           padding: 5% 10%;
           width: 80%;
           margin: auto;
@@ -476,22 +477,23 @@
           width: 100%;
           text-align: center;
           font-size: 67px;
-          padding-top: 30px;;
+          padding-top: 53px;
           
         }
         
         .card {
-          width: 48%;
           margin: 1%;
           max-width: 300px;
           display: flex;
           flex-direction: column;
           background: rgba(255, 255, 255, 0.3);
-          box-shadow: 0 8px 32px 0 rgba(58, 69, 211, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(60, 70, 220, 0.40);
           backdrop-filter: blur(3px);
           -webkit-backdrop-filter: blur(3px);
           overflow: hidden;
           padding: 1%;
+          border-radius: 15px;
+
         }
         
         .card-img {
@@ -537,26 +539,19 @@
     }
   
         }
-        .card-container {
-          display: flex;
-          /*flex-wrap: wrap;*/
-          /*-webkit-backdrop-filter: blur(2px);*/
-          border-radius: 10px;
         
-          padding: 5% 10%;
-        }
         
         .card-container-heading {
           width: 100%;
           text-align: center;
-          text-decoration: 5px underline rgb(71, 5, 5);
+          padding-top: 53px;
   
         }
         
         .card {
           width: 48%;
           margin: 1%;
-          min-width: 300px;
+          min-width: 200px;
           display: flex;
           flex-direction: column;
           background: rgba(255, 255, 255, 0.3);
@@ -611,7 +606,7 @@
           padding-bottom: 56px;
         }
         .slide-2{
-          padding-bottom: 20px;
+          padding-bottom: 35px;
         }
         .slider img {
           height: 100px;
@@ -635,7 +630,7 @@
           height: 400px;
         }
         .testimonial-container {
-          padding: 5%;
+          padding: 2%;
           overflow: hidden;
       }
   
@@ -727,8 +722,10 @@
   
       .menu i:hover {
         font-size: 35px;
-        background: rgba(197, 21, 21, 0.8);
+        color: #17CDA7;
         border-radius:100px ;
+        width: 50%;
+        
         
         
       
@@ -765,6 +762,7 @@
         justify-content: center;
         align-items: center;
         font-size: 55px;
+        padding-top:62px
   
       }
       a {
@@ -817,8 +815,7 @@
   font-style: inherit;
   align-items: center;
   justify-content: center;
-  padding: 12px;
-  text-decoration: underline ;
+  padding-top: 63px;
       }
   #testimonial h3{
         display: flex;
@@ -863,6 +860,7 @@
   }
   .slider-1{
   display: flex;
+  margin-right: 60px;
   
   
   }.items{
@@ -874,16 +872,18 @@
   }
   .slider-2{
    display: flex; 
+   margin-right: 60px;
   }
   .row{
     width: 80%;
       height: 60%;
-      padding: 10px;
+      padding: 6px;
       margin: 4px;
   }
   
   .slider{
   padding: 10px;
+  width: 100%;
   }
   .menu p {
     padding-left: 22px;
@@ -909,7 +909,9 @@
       overflow: hidden;
       transition: .5s;
       margin-top: 40px;
-      letter-spacing: 4px
+      letter-spacing: 4px;
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      margin-left: 14px;
     }
     
     .card-buttons a:hover {
@@ -1015,4 +1017,8 @@
     padding: 2% 5%;
     text-transform: uppercase;
     width: 140px;
+  }
+  .stay-in-touch a{
+    color:white;
+    padding: 10px;
   }
