@@ -897,6 +897,9 @@
     .menu p {
       padding-left: 21px;
     }
+    .card{
+      height: 251px;
+    }
   
     .card-buttons a {
       position: relative;
@@ -1022,3 +1025,4 @@
     color:white;
     padding: 10px;
   }
+  
