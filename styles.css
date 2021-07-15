@@ -658,6 +658,9 @@
           justify-content: center;
           align-items: center;
       }
+      .icons-2 p{
+        font-size: 15px;
+      }
       .skills h2{
         display: flex;
   font-size: 50px;
