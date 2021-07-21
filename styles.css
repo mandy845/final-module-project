@@ -197,7 +197,7 @@
   font-size: 50px;
   margin-bottom: 20px;
   font-style: inherit;
-    margin-top: -70px;
+
 }
   
   
@@ -911,7 +911,7 @@
     .card-buttons a {
       position: relative;
       display: inline-block;
-      padding: 10px 10px;
+      padding: 10px 0px;
       color: #0c0c0c;
       font-size: 16px;
       text-decoration: none;
