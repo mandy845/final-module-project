@@ -1,4 +1,4 @@
-/* horizontal scrollbar caused by overflowing in the x-plain */
+
 
 html,
 body {
@@ -7,17 +7,17 @@ body {
 
 /* Homepage */
 
-/* crop your image to have the transparent parts be smaller around your body. The space it takes is too big. Then you'll be able to remove the width: 80%; */
+/*  */
 
 /* About section */
 
 @media screen and (max-width: 600px) {
   #home-page {
-    padding-top: 70px; /* Icons and about text overlap */
+    padding-top: 70px; 
   }
 }
 
-/* image in about section becomes too narrow when screen 1130px width and lower. So make flex-direction column earlier */
+/* image in about */
 @media screen and (max-width: 1130px) {
   .about-details {
     flex-direction: column;
@@ -28,11 +28,7 @@ body {
   }
 }
 
-/* All changes with flexwrap and flex makes the boxes responsively fall to the next row. This makes overflow impossible */
 
-/* give icons in .icons-2 div class of "skill" */
-.skill {
-}
 
 /* Education and Experience */
 .slider-1,
