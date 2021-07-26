@@ -21,14 +21,15 @@
         <div class="home-page">
           <section id="#home-page">
             <div class="menu">
-              <a href="#home-page"><i class="fas fa-home"></i><a><p>home</p></a></a>
-              <a href="#about" ><i class="fas fa-user"></i></i><p>about</p></a>
-              <a href="#education"><i class="fas fa-graduation-cap"></i><p>education</p></a>
-              <a href="#services"><i class="fas fa-list"></i><p>services</p></a>
-              <a href="#my-projects"><i class="fas fa-briefcase"></i><p>projects</p></a>
-              <a href="#testimonial"><i class="fas fa-users"></i><p>testimonial</p></a>
-              <a href="#contact-me"><i class="fas fa-comments"></i><p>in-touch</p></a>
+              <a href="#home-page" class="nav-item" onclick="toggleNav()"><i class="fas fa-home"></i><a><p>home</p></a></a>
+              <a href="#about"  class="nav-item" onclick="toggleNav()"><i class="fas fa-user"></i></i><p>about</p></a>
+              <a href="#education" class="nav-item" onclick="toggleNav()"><i class="fas fa-graduation-cap"></i><p>education</p></a>
+              <a href="#services" class="nav-item" onclick="toggleNav()"><i class="fas fa-list"></i><p>services</p></a>
+              <a href="#my-projects" class="nav-item" onclick="toggleNav()"><i class="fas fa-briefcase"></i><p>projects</p></a>
+              <a href="#testimonial" class="nav-item" onclick="toggleNav()"><i class="fas fa-users"></i><p>testimonial</p></a>
+              <a href="#contact-me" class="nav-item" onclick="toggleNav()"><i class="fas fa-comments"></i><p>in-touch</p></a>
             </div>
+            <div class="nav-button" onclick="toggleNav()"><i class="fas fa-bars"></i></div>
             <div class="icons">
               <a href="https://wa.me/+27655542498" target="blank"><i class="fab fa-whatsapp" ></i></a>
            <a href="mailto: amandamakara7@gmail.com"><i class="fas fa-envelope-open-text"></i></a>
@@ -504,6 +505,8 @@
           integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
           crossorigin="anonymous"
         ></script>
+        <!-- nav script -->
+        <script src="/button.js"></script>
         <script
           src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
           integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="

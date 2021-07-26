@@ -1,108 +1,113 @@
-@media only screen and (max-width: 600px) {
-    .home-page{
-        padding: 20px;
-        height: auto;
+@media screen and (max-width: 400px) {
+    .icons i {
+      padding: 10px;
+    }
+    .nav-button {
+      top: -15px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .home-page {
+      padding: 20px;
+      height: auto;
     }
     .hero-content {
-        flex-direction: column;
-        margin: auto;
-        width: 100%
+      flex-direction: column;
+      margin: auto;
+      width: 100%;
     }
-
+  
     .content {
-        margin: auto;
-        width: 100%;
+      margin: auto;
+      width: 100%;
     }
     .image {
-        width: 100%;
-        margin: auto;
+      width: 100%;
+      margin: auto;
     }
-
+  
     .image img {
-        width: 100%;
+      width: 100%;
     }
-
+  
     #about {
-        padding: 5%;
+      padding: 5%;
     }
-
+  
     .about-details {
-        flex-direction: column;
-        align-items: center;
+      flex-direction: column;
+      align-items: center;
     }
-
+  
     .personal {
-        padding: 0;
+      padding: 0;
     }
-
-    .pic {
-        width: 100%;
-        margin-top: 50px;
+  
+    img.pic {
+      width: 100%;
+      margin-top: 50px;
     }
-
-    .icons-2 {
-        width: 100%;
-        flex-wrap: wrap;
-        max-width: 400px;
-    }
-
-    .slider-1, 
+  
+    /* .icons-2 {
+      width: 100%;
+      flex-wrap: wrap;
+      max-width: 400px;
+    } */
+  
+    .slider-1,
     .slider-2 {
-        flex-direction: column;
+      flex-direction: column;
     }
-
-    .slider-1 .items, 
+  
+    .slider-1 .items,
     .slider-2 .items {
-        width: 100%;
+      width: 100%;
     }
-
+  
     .services-container {
-        flex-direction: column;
-    } 
-
+      flex-direction: column;
+    }
+  
     .services-container .service {
-        width: 90%;
-        margin: auto;
-    } 
-
+      width: 90%;
+      margin: auto;
+    }
+  
     .testimonial-container .row {
-        width: 100%;
-        flex-direction: column;
-        margin: auto;
+      width: 100%;
+      flex-direction: column;
+      margin: auto;
     }
-
+  
     .contact-stuff {
-        flex-direction: column-reverse;
+      flex-direction: column-reverse;
     }
-
+  
     #contact-me {
-        max-width: 500px;
-        width: 100%;
+      max-width: 500px;
+      width: 100%;
     }
-
-
+  
     #timeline-container {
-        padding: 5%;
+      padding: 5%;
     }
-
-    .slider-1, 
+  
+    .slider-1,
     .slider-2 {
-        margin-right: 0;
+      margin-right: 0;
     }
-
+  
     #my-projects {
-        padding: 5%;
+      padding: 5%;
     }
-
+  
     .card-container {
-        padding: 0;
-        width: 100%;
+      padding: 0;
+      width: 100%;
     }
-    
+  
     .card {
-        width: 100%;
-        margin: 20px auto;
+      width: 100%;
+      margin: 20px auto;
     }
-
-}
-
+  }
