@@ -121,7 +121,7 @@ body {
 
 .menu {
   display: grid;
-  padding: 25px;
+  /* padding: 25px; */
   position: fixed;
   align-items: flex-end;
   top: 0;
